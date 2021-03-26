@@ -1,24 +1,23 @@
-<style>
-svg { background-color: rgb(200, 200, 200); }
-</style>
 # svg-cheatsheet
 
 Learning SVG with the [MDN Tutorial][tutorial].
 
 GitHub doesn't render SVGs in `.md` files. See them on GitHub Pages [here][demo].
 
-## Basic Shapes
 
+<style>
+svg { background-color: rgb(200, 200, 200); }
+</style>
 Example template:
 ```
 <svg width="200" height="200">
 </svg>
 ```
 
+## Basic Shapes
+
 ### Rectangle
-
 Start off simple: x, y, width and height. rx and ry set round corners.
-
 ```
 <svg width="200" height="200">
     <rect x="10" y="10" width="30" height="30"/>
