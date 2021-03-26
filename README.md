@@ -1,3 +1,6 @@
+<style>
+svg { background-color: rgb(200, 200, 200); }
+</style>
 # svg-cheatsheet
 
 Learning SVG with the [MDN Tutorial][tutorial].
