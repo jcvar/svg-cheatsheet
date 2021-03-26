@@ -97,6 +97,67 @@ Paths offer the most flexibility and are defined by a single attribute.
     <path d="M20,230 Q40,205 50,230 T90,230" fill="none" stroke="blue" stroke-width="5"/>
 </svg>
 
+## Paths
+Paths are composed of multiple commands inside the `d` attribute.
+Each command is represented by a letter and followed by some parameters.
+
+- Uppercase letters specify absolute coordinates.
+- Lowercase letters specify coordinates relative to the last point.
+
+### Line commands
+
+#### M - Move to
+Moves the cursor to a specific coordinate, with no trace.
+```
+M x y
+```
+
+#### L - Line to
+Draws a line to the specified coordinate, from the current position.
+```
+L x y
+```
+
+#### H - Horizontal line
+Draw a horizontal line to an x coordinate. (h: of x length)
+```
+H x
+```
+
+#### V - Vertical line
+Draw a vertical line to a y coordinate. (v: of y length)
+```
+V y
+```
+
+#### Z - Close path
+Draws a straight line from the cursor to the first point of the path.
+Has no parameters or difference in behavior when lowercase.
+```
+Z
+```
+
+##### Examples
+Absolute coordinates:
+```
+<svg width="100" height="100">
+     <path d="M 10 10 H 90 V 90 H 10 Z" fill="transparent" stroke="black"/>
+</svg>
+```
+<svg width="100" height="100">
+     <path d="M 10 10 H 90 V 90 H 10 Z" fill="transparent" stroke="black"/>
+</svg>
+
+Relative coordinates:
+```
+<svg width="100" height="100">
+     <path d="M 10 10 h 80 v 80 h -80 z" fill="transparent" stroke="black"/>
+</svg>
+```
+<svg width="100" height="100">
+     <path d="M 10 10 h 80 v 80 h -80 z" fill="transparent" stroke="black"/>
+</svg>
+
 ## TODO
 - Table of contents
 
