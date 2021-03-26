@@ -13,6 +13,8 @@ Example template:
 <svg width="200" height="200">
 </svg>
 ```
+<svg width="200" height="200">
+</svg>
 
 ## Basic Shapes
 
@@ -29,6 +31,26 @@ Start off simple: x, y, width and height. rx and ry set round corners.
     <rect x="60" y="10" width="30" height="30" rx="10" ry="10"/>
 </svg>
 
+### Circle
+Coordinates of center and radius.
+```
+<svg width="200" height="200">
+    <circle cx="25" cy="75" r="20"/>
+</svg>
+```
+<svg width="200" height="200">
+    <circle cx="25" cy="75" r="20"/>
+</svg>
+
+### Ellipse
+
+### Line
+
+### Polyline
+
+### Polygon
+
+### Path
 
 ## TODO
 - Table of contents
