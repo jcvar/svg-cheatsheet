@@ -1,4 +1,7 @@
 # svg-cheatsheet
+
+Learning SVG with the [MDN Tutorial][tutorial].
+
 GitHub doesn't render SVGs in `.md` files. See them on GitHub Pages [here][demo].
 
 ## Basic Shapes
@@ -25,4 +28,8 @@ Start off simple: x, y, width and height. rx and ry set round corners.
 </svg>
 
 
+## TODO
+- Table of contents
+
 [demo]: https://jcvar.github.io/svg-cheatsheet/
+[tutorial]: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
