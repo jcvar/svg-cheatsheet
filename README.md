@@ -43,14 +43,44 @@ Coordinates of center and radius.
 </svg>
 
 ### Ellipse
+```
+<svg width="200" height="200">
+</svg>
+```
+<svg width="200" height="200">
+</svg>
 
 ### Line
+```
+<svg width="200" height="200">
+</svg>
+```
+<svg width="200" height="200">
+</svg>
 
 ### Polyline
+```
+<svg width="200" height="200">
+</svg>
+```
+<svg width="200" height="200">
+</svg>
 
 ### Polygon
+```
+<svg width="200" height="200">
+</svg>
+```
+<svg width="200" height="200">
+</svg>
 
 ### Path
+```
+<svg width="200" height="200">
+</svg>
+```
+<svg width="200" height="200">
+</svg>
 
 ## TODO
 - Table of contents
