@@ -1,5 +1,5 @@
 # svg-cheatsheet
-Learning SVG
+GitHub doesn't render SVGs in `.md` files. See them on GitHub Pages [here][demo].
 
 ## Basic Shapes
 
@@ -23,3 +23,6 @@ Start off simple: x, y, width and height. rx and ry set round corners.
     <rect x="10" y="10" width="30" height="30"/>
     <rect x="60" y="10" width="30" height="30" rx="10" ry="10"/>
 </svg>
+
+
+[demo]: https://jcvar.github.io/svg-cheatsheet/
