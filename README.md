@@ -158,6 +158,36 @@ Relative coordinates:
      <path d="M 10 10 h 80 v 80 h -80 z" fill="transparent" stroke="black"/>
 </svg>
 
+### Curve commands
+
+There are two Bézier Curves and an Arc.
+
+#### Cubic Bézier
+Two control points, for the start and end slopes, and the end coordinate.
+```
+C x1 y1, x2 y2, x y
+```
+
+When chaining Bézier curves, and the next control point is a reflection of the
+last, the cubic Bézier shortcut may be used. If it doesn't follows a `C` or `S`,
+it's equivalent to a `Q`
+```
+S x2 y2, x y
+```
+
+#### Quadratic Bézier
+One control point and end coordinate.
+Relative (`q`) end point coordinates are relative to the start.
+```
+Q x1 y1, x y
+```
+
+As with the cubic Bézier, the control point can be the reflection of the last.
+If it doesn't follow a `Q` or `T`, it's equivalent to a line.
+```
+T x y
+```
+
 ## TODO
 - Table of contents (GitHub now offers them anyway)
 
