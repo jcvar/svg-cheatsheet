@@ -159,7 +159,7 @@ Relative coordinates:
 </svg>
 
 ## TODO
-- Table of contents
+- Table of contents (GitHub now offers them anyway)
 
 [demo]: https://jcvar.github.io/svg-cheatsheet/
 [tutorial]: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
