@@ -1,3 +1,9 @@
+<!-- PREAMBLE -->
+<style>
+svg { background-color: rgb(200, 200, 200); }
+</style>
+<!-- PREAMBLE -->
+
 # Basic Shapes
 
 ### Rectangle

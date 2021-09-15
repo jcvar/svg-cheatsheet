@@ -1,3 +1,9 @@
+<!-- PREAMBLE -->
+<style>
+svg { background-color: rgb(200, 200, 200); }
+</style>
+<!-- PREAMBLE -->
+
 ## Paths
 Paths are composed of multiple commands inside the `d` attribute.
 Each command is represented by a letter and followed by some parameters.
