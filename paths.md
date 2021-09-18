@@ -94,3 +94,27 @@ If it doesn't follow a `Q` or `T`, it's equivalent to a line.
 ```
 T x y
 ```
+
+### Arc
+
+The line segment between the origin/pointer and `(x, y)`
+can be a chord to two ellipses of radiuses `rx` and `ry`.
+The portion of ellipse drawn is selected by the direction (cw, ccw) and as either
+the larger or smaller of the two arcs on each side of the defined segment.
+The rotation of the ellipse can be defined as well.
+```
+ A rx ry x-axis-rotation large-arc-flag sweep-flag x y
+```
+
+Example:
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 10 315
+           L 110 215
+           A 30 50 0 0 1 162.55 162.45
+           L 172.55 152.45
+           A 30 50 -45 0 1 215.1 109.9
+           L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+</svg>
+
+
+
