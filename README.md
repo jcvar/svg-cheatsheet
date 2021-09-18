@@ -6,6 +6,7 @@ GitHub doesn't render SVGs in `.md` files. See them on GitHub Pages [here][demo]
 
 - [Basic Shapes](basic)
 - [Paths](paths)
+- [Fills and Strokes](fillstroke)
 
 <style>
 svg { background-color: rgb(200, 200, 200); }
