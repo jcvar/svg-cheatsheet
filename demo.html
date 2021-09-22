@@ -14,12 +14,56 @@
       stroke: black;
       fill: white;
     }
+
+    .edge {
+      stroke-width: 4;
+      fill: none;
+    }
+    .edge-bg {
+      stroke-width: 8;
+      fill: none;
+    }
   </style>
 </head>
 
 <body>
-  <svg width="200" height="200">
+  <svg width="400" height="400">
+    <path class="edge-bg" stroke="white" d="
+      m 100 100
+      h 25
+      a 25 25 0 0 1 25 25
+      v 100
+      a 25 25 0 0 0 25 25
+      h 25
+    " />
+    <path class="edge" stroke="red" d="
+      m 100 100
+      h 25
+      a 25 25 0 0 1 25 25
+      v 100
+      a 25 25 0 0 0 25 25
+      h 25
+    " />
+    <path class="edge-bg" stroke="white" d="
+      m 100 100
+      h 25
+      a 25 25 0 0 1 25 25
+      a 25 25 0 0 0 25 25
+      h 25
+    " />
+    <path class="edge" stroke="blueviolet" d="
+      m 100 100
+      h 25
+      a 25 25 0 0 1 25 25
+      a 25 25 0 0 0 25 25
+      h 25
+    " />
     <circle cx="100" cy="100" r="8" class="node" />
+    <circle cx="200" cy="150" r="8" class="node" />
+    <circle cx="300" cy="150" r="8" class="node" />
+    <circle cx="100" cy="200" r="8" class="node" />
+    <circle cx="200" cy="250" r="8" class="node" />
+    <circle cx="300" cy="300" r="8" class="node" />
   </svg>
 </body>
 
